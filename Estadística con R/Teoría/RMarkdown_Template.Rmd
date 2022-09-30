@@ -1,0 +1,23 @@
+---
+title: "¡¡ Hala Madrid !!"
+author: "Iván Guerrero"
+date: "29/5/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Carga de librerías.
+
+```{r, echo=TRUE, message=FALSE, warning=FALSE}
+library(ggplot2)
+```
+
+Operaciones
+
+```{r, echo=TRUE, warning=FALSE}
+A <- 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1
+A
+```

@@ -1,0 +1,6 @@
+library(ineq)
+data("AirPassengers")
+head(AirPassengers)
+View(AirPassengers)
+ineq(AirPassengers,type="Gini")
+plot(Lc(AirPassengers),col="darkred",lwd=2)
